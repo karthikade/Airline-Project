@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background-color: deepskyblue;
+    }
+</style>
+<body>
+    <center>
+    <form action="air.php" method="post">
+    <h1><u>Welcome To Indian Airline</u></h1>
+    <h3>Trip Details</h3>
+    <table>
+        
+     <tr>
+        <td>Passenger Name:</td> 
+            <td><input type="text" name="name" placeholder="Enter name" required> </td>
+        </tr>
+        <tr>
+        <td>Age:</td> 
+            <td><input type="number" name="age"placeholder="Enter Age" required> </td>
+        </tr>
+        <tr>
+            <td>Email:</td> 
+                <td><input type="email" name="email"placeholder="Enter Email" required> </td>
+            </tr>
+        <td>Boarding From:</td> 
+            <td><input type="text" name="boarding"placeholder="Enter boarding point" required> </td>
+        </tr>
+        <td>Destination</td> 
+            <td><input type="text" name="dsetination"placeholder="Enter destination" required> </td>
+        </tr>
+        <tr>
+        <td>Gender:</td> 
+            <td><input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="others"> Other</td>
+           </tr>
+            <tr>
+            <td>Mobile Number:</td> 
+            <td><input type="number" name="mobile"placeholder="Enter Mobile number" required> </td></tr>
+           <tr>
+            <td>Departure Date:</td> 
+            <td><input type="date" name="ddate"placeholder="select departure date" required> 
+                <input type="time" name="time">
+            <select><option value="am">AM</option>
+            <option value="pm">PM</option></select></td>
+            </tr>
+            <tr>
+            <td>Return date:</td> 
+            <td><input type="date" name="rdate"placeholder="select return date" required> 
+                   <input type="time" name="time">
+            <select><option value="am">AM</option>
+            <option value="pm">PM</option></select></td></td>
+            </tr>
+    </table>
+    <br>
+    <input type="submit" value="submit"><br><br><br>
+    <marquee><h3>***Thank you for reservation***</h3></marquee>
+
+</form>
+</center>
+
+</body>
+</html>
+<html>
+
+</html>
